@@ -3,7 +3,7 @@ export function Input({label,placeholder})
 {
     return (
         <div className="mt-6 px-4 text-1xl font-medium">
-            <div className=" font-roboto text-1xl font-bold"> 
+            <div className=" font-roboto text-lg font-bold"> 
                 {label}
             </div>
             <div className="mt-2 ">
