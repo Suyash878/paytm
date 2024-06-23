@@ -3,9 +3,12 @@ import { Input } from "../components/Input"
 import { ButtonWarning } from "../components/ButtonWarning"
 import { Subheading } from "../components/Subheading"
 import { Button } from "../components/Button"
+import { useNavigate } from "react-router-dom"
 
 export function Signin()
 {
+    const navigate = useNavigate();
+    
     return (
         <div className="bg-neutral-400 h-screen w-screen flex justify-center items-center">
             <div className="bg-slate-200 h-128 w-128 rounded-md p-4">

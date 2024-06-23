@@ -1,5 +1,5 @@
 
-export function Input({label,placeholder})
+export function Input({label,placeholder,onChange})
 {
     return (
         <div className="mt-6 px-4 text-1xl font-medium">
@@ -7,7 +7,7 @@ export function Input({label,placeholder})
                 {label}
             </div>
             <div className="mt-2 ">
-                <input className ='h-10 p-4 w-112 rounded-md text-slate-400' placeholder={placeholder}/>
+                <input onChange = {onChange}className ='h-10 p-4 w-112 rounded-md text-slate-400' placeholder={placeholder}/>
             </div>
         </div>
     )
