@@ -46,7 +46,7 @@ export const Signup = ()=>
                                 password
                                 });
                                 localStorage.setItem("token", response.data.token);
-                                navigate("/dashboard")
+                                navigate("/dashboard?" + "token=" + localStorage.getItem("token"));
                             }
                      
                     }

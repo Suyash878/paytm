@@ -7,7 +7,7 @@ export function Input({label,placeholder,onChange})
                 {label}
             </div>
             <div className="mt-2 ">
-                <input onChange = {onChange}className ='h-10 p-4 w-112 rounded-md text-slate-400' placeholder={placeholder}/>
+                <input onChange = {onChange} className ='h-10 p-4 w-112 rounded-md text-slate-400' placeholder={placeholder}/>
             </div>
         </div>
     )
